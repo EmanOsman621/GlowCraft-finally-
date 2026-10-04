@@ -17,10 +17,10 @@ npm run dev        # React على http://localhost:5173
 | رقم | البرانش | الملفات (جوه `src/`) |
 |---|---|---|
 | الأساس (الليدر على develop) | `develop` | `package.json`, `vite.config.js`, `index.html`, `db.json`, `main.jsx`, `App.jsx`, `index.css`, `services/api.js`, `utils/helpers.js`, `context/AuthContext.jsx`, `context/ShopContext.jsx`, `components/Layout`, `ProtectedRoute`, `ProductCard`, `ProductImage` |
-| 1 | `feature/home-page` | `pages/Home/*` + `components/Navbar.jsx`, `components/Footer.jsx` |
-| 2 | `feature/products` | `pages/Products/*` + `pages/ProductDetails/*` |
-| 3 | `feature/routine-compare-wishlist` | `pages/RoutineFinder/*` + `pages/IngredientTracker/*` + `pages/Wishlist/*` (المقارنة جواها) |
-| 4 | `feature/cart-checkout-orders` | `pages/Cart/*` + `pages/Checkout/*` + `pages/Orders/*` |
-| 5 | `feature/auth-contact` | `pages/Login/*` + `pages/Register/*` + `pages/Contact/*` |
-| 6 | `feature/profile-admin` | `pages/Profile/*` + `pages/Admin/*` |
-| 7 | `feature/about-theme-i18n` | `pages/About/*` + `context/ThemeContext.jsx` + `context/LangContext.jsx` |
+| 1 >> Doaa| `feature/home-page` | `pages/Home/*` + `components/Navbar.jsx`, `components/Footer.jsx` |
+| 2 >> Hager| `feature/products` | `pages/Products/*` + `pages/ProductDetails/*` |
+| 3 >> Amina| `feature/routine-compare-wishlist` | `pages/RoutineFinder/*` + `pages/IngredientTracker/*` + `pages/Wishlist/*` (المقارنة جواها) |
+| 4 >> Rawan| `feature/cart-checkout-orders` | `pages/Cart/*` + `pages/Checkout/*` + `pages/Orders/*` |
+| 5 >> Eman| `feature/auth-contact` | `pages/Login/*` + `pages/Register/*` + `pages/Contact/*` |
+| 6 >> Khloud| `feature/profile-admin` | `pages/Profile/*` + `pages/Admin/*` |
+| 7 >> Rahma| `feature/about-theme-i18n` | `pages/About/*` + `context/ThemeContext.jsx` + `context/LangContext.jsx` |
