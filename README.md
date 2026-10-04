@@ -1,4 +1,4 @@
-# GlowCraft 🌸 (React + Vite + JSON Server)
+# GlowCraft (React + Vite + JSON Server)
 
 ## تشغيل المشروع
 ```bash
@@ -24,12 +24,3 @@ npm run dev        # React على http://localhost:5173
 | 5 | `feature/auth-contact` | `pages/Login/*` + `pages/Register/*` + `pages/Contact/*` |
 | 6 | `feature/profile-admin` | `pages/Profile/*` + `pages/Admin/*` |
 | 7 | `feature/about-theme-i18n` | `pages/About/*` + `context/ThemeContext.jsx` + `context/LangContext.jsx` |
-
-## قواعد مهمة
-- أي نص في الواجهة يتكتب كده: `t('English', 'عربي')`، وبيانات المنتج: `pick(product, 'name')`.
-- الألوان من متغيرات `index.css` (`var(--primary)` وغيره) عشان الدارك مود يشتغل.
-- الاتصال بالـ API من `services/api.js` فقط.
-- اللي يحتاج يعدل ملف مشترك (`index.css`, `App.jsx`, `helpers.js`) يكلم الليدر الأول.
-
-## ملاحظة
-الباسوردات في `db.json` نص عادي لأنه Fake API للتدريب فقط.
