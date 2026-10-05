@@ -16,7 +16,7 @@ npm run dev        # React على http://localhost:5173
 
 | رقم | البرانش | الملفات (جوه `src/`) |
 |---|---|---|
-| الأساس (الليدر على develop) | `develop` | `package.json`, `vite.config.js`, `index.html`, `db.json`, `main.jsx`, `App.jsx`, `index.css`, `services/api.js`, `utils/helpers.js`, `context/AuthContext.jsx`, `context/ShopContext.jsx`, `components/Layout`, `ProtectedRoute`, `ProductCard`, `ProductImage` |
+| Eman | `develop` | `package.json`, `vite.config.js`, `index.html`, `db.json`, `main.jsx`, `App.jsx`, `index.css`, `services/api.js`, `utils/helpers.js`, `context/AuthContext.jsx`, `context/ShopContext.jsx`, `components/Layout`, `ProtectedRoute`, `ProductCard`, `ProductImage` |
 | 1 >> Doaa| `feature/home-page` | `pages/Home/*` + `components/Navbar.jsx`, `components/Footer.jsx` |
 | 2 >> Hager| `feature/products` | `pages/Products/*` + `pages/ProductDetails/*` |
 | 3 >> Amina| `feature/routine-compare-wishlist` | `pages/RoutineFinder/*` + `pages/IngredientTracker/*` + `pages/Wishlist/*` (المقارنة جواها) |
