@@ -20,8 +20,11 @@ export default function Wishlist() {
   }, [])
 
   const wished = products.filter((p) => wishlist.includes(p.id))
-  const compared = compare.map((id) => products.find((p) => p.id === id)).filter(Boolean)
-
+const compared = compare
+  .filter((id) => wishlist.includes(id))
+  .map((id) => products.find((p) => p.id === id))
+  .filter(Boolean)
+  
   const onCompare = (id) => {
     const ok = toggleCompare(id)
     setLimitMsg(!ok)
